@@ -124,7 +124,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'static') 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'btre/static') 
+    os.path.join(BASE_DIR, 'btre/static') # static files are being server from here 
     # tells django to look for static files first in this path then in each apps static folder
 ]
 
